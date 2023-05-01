@@ -1,1 +1,7 @@
-
+config:
+  aws:
+    access-key: local
+    secret-key: local
+    region: us-east-2
+    sqs-queue-url: message-from-s3
+    localstack-endpoint: http://localhost:4566
